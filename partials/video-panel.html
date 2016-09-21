@@ -1,0 +1,13 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Videos</h3>
+  </div>
+  <div class="panel-body">
+    <div ng-repeat="video in currentExercise.details.related.videos">
+      <iframe width="100%"
+              src="{{video}}"
+              frameborder="0"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+</div>

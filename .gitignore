@@ -1,0 +1,12 @@
+# Dependendy directory
+node_modules
+bower_components
+
+# Environment variables
+.env
+
+# development files
+.idea
+
+# log files
+*.log
